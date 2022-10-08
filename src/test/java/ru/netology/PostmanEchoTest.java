@@ -11,7 +11,7 @@ public class PostmanEchoTest {
         given()
                 .baseUri("https://postman-echo.com")
                 .contentType("text/plain; charset=UTF-8")
-                .body("Любите ли Вы API тестирование так, как любят его студенты Нетологии?")
+                .body("Любите Вы API тестирование так, как любят его студенты Нетологии?")
                 .when()
                 .post("/post")
                 .then()
